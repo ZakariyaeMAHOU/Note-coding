@@ -228,6 +228,43 @@ Périmètre = liste précise de ce qui est inclus (IN) et exclu (OUT) dans le pr
    - حل: حوار مستمر وبنّاء (اجتماعات متابعة، أدوات تعاون)، تشجيع تبادل المعلومات، بناء ثقة عبر الإصغاء.
 
 ### <span style="color: rgb(50 200 50)">Préparer le projet</span>:
+#### <span style="color: rgb(10 150 255)">1. Répartition de l’ensemble des fonctionnalités en tâches</span>:توزيع جميع الوظائف إلى مهام
+
+| FR                                                                                                                           | AR                                                                                         |
+| ---------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| But: découper le projet en WBS claire pour planifier, estimer, affecter, gérer risques.                                      | الهدف: تفكيك المشروع إلى هيكل مهام واضح للتخطيط والتقدير وتوزيع المسؤوليات وإدارة المخاطر. |
+| Approches: 1) Descendante (du global au détail) 2) Ascendante (lister puis regrouper) 3) Combinée (sécurise l’exhaustivité). | الطرق: 1) من أعلى لأسفل 2) من أسفل لأعلى 3) مزيج (لتفادي السهو).                           |
+| Caract. intrinsèques (tâche): Libellé, Entrées, Sorties, Compétences, Charge, Contraintes.                                   | خصائص داخلية: اسم، مدخلات، مخرجات، مهارات، جهد، قيود.                                      |
+| Caract. extrinsèques: Responsable, Ressources (humaines/matérielles), Dépendances (prédécesseur/suivant), Dates début/fin.   | خصائص خارجية: مسؤول، موارد بشرية/مادية، تبعيات (قبل/بعد)، تواريخ بداية/نهاية.              |
+| Exemple: Projet “Nouveau site” → Phases (Conception / Implémentation / Marketing) → Paquets → Tâches.                        | مثال: “موقع جديد” → مراحل (تصميم، تنفيذ، تسويق) → حزم → مهام.                              |
+| Résultat: base commune pour ordonnancement, chemin critique, coûts.                                                          | النتيجة: أساس للجدولة، المسار الحرج، التكلفة.                                              |
+| Mémo: WBS = (Approche) + (Intrinsèques) + (Extrinsèques) ⇒ Maîtrise.                                                         | تذكّر: WBS = (طريقة التفكيك) + (داخلية) + (خارجية) ⇒ تحكّم.                                |
+
+
+#### <span style="color: rgb(10 150 255)">2. Estimation de la durée de réalisation de chaque tâche</span>:قم بتقدير مدة كل مهمة
+
+- Méthodes:  
+  - Analogique = historique (rapide, moins précis).  
+  - Paramétrique = ratios (productivité mesurable, tâches répétitives).  
+  - PERT 3 points: Do (optimiste), Dc (probable), Dp (pessimiste) → DM = (Do + 4Dc + Dp) / 6.  
+- Distinction: Charge (effort en jours‑homme) ≠ Durée (temps calendaire).  
+- Durée dépend: nombre de personnes, compétence, % disponibilité, ressources matérielles.  
+- 10 j‑h = 10 j (1 pers 100%) = 5 j (2 pers 100%) = 20 j (1 pers 50%).  
+- Piège: doubler ressources ≠ moitié du temps (coordination, ramp‑up).
+
+- الطرق: تشبيهي (سريع أقل دقة)، معلمي (نِسَب إنتاجية)، PERT ثلاثي (متفائل، مرجّح، متشائم) والمتوسط = (Do + 4Dc + Dp) / 6.  
+- فرّق: الجهد (أيام‑شخص) ≠ المدة (زمن تقويمي).  
+- المدة تتأثر بعدد الأفراد، مهاراتهم، نسبة التفرغ، توفر المعدات.  
+- مثال: 10 أيام‑شخص قد تساوي 10 أيام أو 5 أو 20 حسب التوزيع.  
+- تنبيه: زيادة الأفراد لا تقسم الزمن دائماً بسبب التنسيق والانطلاق.
+#### <span style="color: rgb(10 150 255)">3. Ordonnancement des tâches</span>:جدولة المهام
+
+#### <span style="color: rgb(10 150 255)">4. Chemin critique</span>:المسار الحرج
+
+#### <span style="color: rgb(10 150 255)">5. Echéancier et la chronologie des tâches</span>:
+#### <span style="color: rgb(10 150 255)">6. Affectation des ressources aux tâches</span>:
+#### <span style="color: rgb(10 150 255)">7. Maîtrise des coûts</span>:
+#### <span style="color: rgb(10 150 255)">8. Détermination des points de validation</span>:
 
 ## <span style="color: rgb(255 100 100)">3. Adopter l ’approche Agile dans gestion de projet</span>:
 ### <span style="color: rgb(50 200 50)">Appréhender la méthodologie Agile Scrum</span>:
