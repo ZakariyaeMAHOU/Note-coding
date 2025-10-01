@@ -25,7 +25,7 @@
 > - Introduire la chaîne DevOps:
 > - Mettre en place la CI/CD avec Gitlab:
 
-# [Playliste](https://youtube.com/playlist?list=PLKV6WevXj-lWQfNX5OrF5IjdOTSuyTXuE&si=QG1JZzmUwWzCKMcw):[chatGPT](https://chatgpt.com/share/68d3d57b-5c00-800b-a3f6-ab2c284a6e69):[Copilot](https://github.com/copilot/share/482d4332-4340-8895-b800-de47a05220a2):
+# [Playliste](https://youtube.com/playlist?list=PLKV6WevXj-lWQfNX5OrF5IjdOTSuyTXuE&si=QG1JZzmUwWzCKMcw):[chatGPT](https://chatgpt.com/share/68d3d57b-5c00-800b-a3f6-ab2c284a6e69):[Copilot](https://github.com/copilot/share/026b12aa-4344-8094-8011-d604e44f414f):
 ## <span style="color: rgb(255 100 100)">1. Connaître les fondamentaux de la gestion de projet</span>:
 ### <span style="color: rgb(50 200 50)">Découvrir les Concepts de gestion de projet</span>:
 #### <span style="color: rgb(10 150 255)">1. Concepts de gestion de projet</span>:مفاهيم إدارة المشروع
@@ -138,11 +138,11 @@
 | **Kanban**           | Gestion du flux continu et limitation du WIP   | Flux de demandes variées ou maintenance       | Tableau visuel, limites WIP, mesure Lead/Cycle Time                                                              |
 | **Lean Development** | Maximiser la valeur, éliminer le gaspillage    | Besoin d’efficacité et d’apprentissage rapide | Évite sur‑fonctionnalités, retards, re-travail ; améliore la qualité en amont                                    |
 
-| المنهجية | الفكرة المركزية | متى تكون مناسبة | نقاط رئيسية |
-|----------|-----------------|-----------------|-------------|
-| **Scrum (سكرَم)** | تقسيم العمل إلى دورات قصيرة محددة الزمن (Sprints) تُسلِّم في كل دورة زيادة مكتملة قابلة للاستخدام (Increment “Done”) | عند وجود عمل معقّد، غموض أو تغيّر في المتطلبات / المنتج | أدوار: مالك المنتج (PO)، ميسّر المنهجية (Scrum Master)، فريق التطوير. المخرجات: قوائم العمل (Product & Sprint Backlog)، الزيادة (Increment). الفعاليات: التخطيط، الاجتماع اليومي، المراجعة، جلسة التحسين (Retrospective) |
-| **Kanban (كانبان)** | إدارة تدفّق العمل بصريًا وتقليل العمل الجاري (WIP) لتحسين الانسيابية | عند وجود تدفّق مستمر من طلبات متنوّعة، دعم، صيانة، أو حاجة للاستجابة السريعة | لوحة مرئية (Kanban Board)، حدود العمل الجاري (WIP Limits)، قياس زمن الإنجاز (Lead Time) وزمن الدورة (Cycle Time)، كشف الاختناقات |
-| **Lean Development (التطوير الرشيق/اللّين)** | تعظيم القيمة وإزالة الهدر (Reducing Waste) وتحسين التعلّم والتحسين المستمر | عندما تكون الكفاءة، الجودة المبكرة، وتقليل التكاليف/الهدر أولوية؛ في البيئات التي تحتاج تسريع التعلّم | يركّز على إزالة الهدر (ميزات غير مستخدمة، إعادة عمل، انتظار، تبديل السياق، إلخ)، بناء الجودة مبكرًا، التعلّم السريع، التبسيط |
+| نقاط رئيسية                                                                                                                                                                                                                            | متى تكون مناسبة                                                                                       | Idée centrale                                                                                                        | Méthode               |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- | --------------------- |
+| - أدوار: مالك المنتج (PO)، ميسّر المنهجية (Scrum Master)، فريق التطوير. <br>- المخرجات: قوائم العمل (Product & Sprint Backlog)، الزيادة (Increment). <br>- الفعاليات: التخطيط، الاجتماع اليومي، المراجعة، جلسة التحسين (Retrospective) | عند وجود عمل معقّد، غموض أو تغيّر في المتطلبات / المنتج                                               | تقسيم العمل إلى دورات قصيرة محددة الزمن (Sprints) تُسلِّم في كل دورة زيادة مكتملة قابلة للاستخدام (Increment “Done”) | **Scrum**             |
+| لوحة مرئية (Kanban Board)، حدود العمل الجاري (WIP Limits)، قياس زمن الإنجاز (Lead Time) وزمن الدورة (Cycle Time)، كشف الاختناقات                                                                                                       | عند وجود تدفّق مستمر من طلبات متنوّعة، دعم، صيانة، أو حاجة للاستجابة السريعة                          | إدارة تدفّق العمل بصريًا وتقليل العمل الجاري (WIP) لتحسين الانسيابية                                                 | **Kanban**            |
+| يركّز على إزالة الهدر (ميزات غير مستخدمة، إعادة عمل، انتظار، تبديل السياق، إلخ)، بناء الجودة مبكرًا، التعلّم السريع، التبسيط                                                                                                           | عندما تكون الكفاءة، الجودة المبكرة، وتقليل التكاليف/الهدر أولوية؛ في البيئات التي تحتاج تسريع التعلّم | تعظيم القيمة وإزالة الهدر (Reducing Waste) وتحسين التعلّم والتحسين المستمر                                           | **Lean Development ** |
 
 
 #### <span style="color: rgb(10 150 255)">3. Comparaison</span>
@@ -150,11 +150,82 @@
 - **Cycle en V** : focalisé sur le processus, peu de place à l’adaptation.
 - **Agile** : focalisé sur le produit, flexible, adapté aux besoins changeants.
 ## <span style="color: rgb(255 100 100)">2. Planifier un projet</span>:
+#### Triangle d'or de la gestion de projet:
+![[m202-triangle-d'or.png]]
 ### <span style="color: rgb(50 200 50)">Analyser le cahier des charges</span>:
 #### <span style="color: rgb(10 150 255)">1. Compréhension des besoins client</span>:فهم احتياجات العملاء
-##### 1. Objectif de cette étape  
+##### Objectif de cette étape
 - S’assurer que ce que le client (ou l’utilisateur) veut ET ce dont il a réellement besoin sont clairement compris, validés, structurés et priorisés avant d’engager des ressources lourdes.  
 - التأكد من أننا نفهم ما يريده العميل وما يحتاجه فعلاً، ونوثقه ونُحدِّد أولوياته قبل استهلاك الموارد.
+
+#### <span style="color: rgb(10 150 255)">2. Contexte du projet</span>:
+##### Définitions:
+###### Définition du contexte : تعريف سياق المشروع
+   - Ensemble des informations qui donnent “profondeur” au projet: origine / histoire, cadre réglementaire, culturel, économique, concurrentiel, social et environnement de travail. 
+###### Complexité et nécessité d’analyse  : التعقيد
+   Le projet s’insère dans un environnement socio‑économique et technique complexe et interdépendant ⇒ il faut analyser le contexte en plus du périmètre, des enjeux et des objectifs pour maximiser les chances de succès.
+###### Traçabilité dans la note de cadrage : التوثيق
+   Tous les éléments de contexte doivent être consignés dans la note de cadrage (document de référence exposant tenants et aboutissants).
+###### Justification écrite (fondement de la demande) : التبرير المكتوب
+   Rédiger quelques lignes qui expliquent le “pourquoi” : cela donne du sens, améliore la compréhension des besoins/contraintes par l’équipe, facilite le dialogue ultérieur et légitime la demande (définition claire du problème). 
+
+##### Eléments formant le contexte d’un projet
+![[m202-contex.png]]
+#### <span style="color: rgb(10 150 255)">3. Périmètre du projet</span>:نطاق المشروع
+Périmètre = liste précise de ce qui est inclus (IN) et exclu (OUT) dans le projet. Sert à cadrer, éviter les dérives, estimer charge, planning, budget, et forme avec Coût + Délai le triangle de base.
+
+النطاق = تحديد واضح لما داخل (IN) وخارج (OUT) المشروع؛ يضبط العمل، يمنع التوسع، ويعطي أساس تقدير الجهد والوقت والمال، وهو ضلع مع الوقت والتكلفة في مثلث الإدارة.
+#### <span style="color: rgb(10 150 255)">4. Détection des risques liés à la nature du projet</span>: اكتشاف المخاطر المرتبطة بطبيعة المشروع
+
+##### Objectif initial:
+- dresser très tôt (dès le lancement) une liste exhaustive des événements générateurs de risques (brainstorming équipe).  
+- إعداد قائمة مبكرة شاملة بالمخاطر (عصف ذهني مع الفريق). 
+##### Catégories majeures à connaître:  الفئات الأساسية
+
+|                                                                                                               |                                           |
+| ------------------------------------------------------------------------------------------------------------- | ----------------------------------------- |
+| 1. Financiers: dépassement coûts, manque budget.                                                              | 1) مالية (تجاوز التكاليف)  <br>           |
+| 2. Humains: compétences insuffisantes, absences, démissions, conflits                                         | 2) بشرية (نقص مهارات، غياب، نزاعات)  <br> |
+| 3. Temporels: retards fournisseurs / sous‑traitants, mauvaise estimation délais                               | 3) زمنية (تأخيرات، تقدير خاطئ)  <br>      |
+| 4. Techniques: logiciel inadapté, pannes, matériel obsolète                                                   | 4) تقنية (أعطال، تقادم)  <br>             |
+| 5. Juridiques: non‑respect réglementations, faillite d’un fournisseur critique                                | 5) قانونية (عدم امتثال، إفلاس مورد)  <br> |
+| 6. Environnementaux: impact négatif du projet sur l’environnement ou aléas (inondation, sécheresse, tempête). | 6) بيئية (ظروف طبيعية مؤثرة)  <br>        |
+| 7. Organisationnels: changement de politique interne, mutations économiques.                                  |   7) تنظيمية (تغيّر سياسات أو اقتصاد).    |
+
+##### Plan de management des risques: الخطة
+- à mettre en place dès les premières étapes pour identifier, prévenir, limiter (actions préventives + correctives). 
+- إدارة المخاطر تبدأ مبكراً لتحديد + منع + الحد من الأثر عبر إجراءات وقائية وتصحيحية. 
+##### Bénéfice:الفائدة
+- réduit pertes de temps et d’argent et prépare à une réaction efficace quand un risque survient.
+- تقليل خسائر الوقت والمال والاستعداد للاستجابة الفعّالة.
+
+
+
+
+
+Périmètre = liste précise de ce qui est inclus (IN) et exclu (OUT) dans le projet. Sert à cadrer, éviter les dérives, estimer charge, planning, budget, et forme avec Coût + Délai le triangle de base.
+
+النطاق = تحديد واضح لما داخل (IN) وخارج (OUT) المشروع؛ يضبط العمل، يمنع التوسع، ويعطي أساس تقدير الجهد والوقت والمال، وهو ضلع مع الوقت والتكلفة في مثلث الإدارة.
+#### <span style="color: rgb(10 150 255)">5. Proposition des solutions possibles</span>:
+1. Manque de visibilité sur le projet (غياب الرؤية)  
+   - مشكلة: قائمة مهام/جدول زمني تم إعدادها ثم لم تُحدَّث؛ الفريق لا يعرف الأولويات.  
+   - حل مختصر: استخدام أدوات تخطيط (Gantt / Board) محدثة باستمرار لرصد التقدّم والأولويات والتأخيرات مبكراً.
+
+2. Objectifs imprécis (أهداف غير واضحة)  
+   - مشكلة: غموض الأهداف ⇒ ضياع الاتجاه واحتمال فشل المشروع.  
+   - حل: تحديد الأهداف والرهانات بدقة منذ الإطلاق (SMART) لخلق رؤية مشتركة وتحفيز الالتزام.
+
+3. Planning sous‑estimé (تقدير زمني ناقص)  
+   - مشكلة: تجاوز مواعيد نهائية بسبب وقت إضافي غير محسوب وتأخر التسليم.  
+   - حل: إعداد تقدير واقعي + إدارة مخاطر + هامش احتياطي (buffer)؛ أفضل أن ننهي مبكراً بدل التأخير.
+
+4. Aucune visibilité sur la disponibilité des ressources (جهل بتوفر الأعضاء)  
+   - مشكلة: عدم معرفة من مثقل بالعمل ومن لديه سعة ⇒ اختلال توزيع المهام وتأخيرات.  
+   - حل: تتبع الجهد (Timesheets / charge) وإعادة توزيع المهام ودعم الأعضاء المنشغلين.
+
+5. Mauvaise communication (اتصال ضعيف)  
+   - مشكلة: عزلة، توتر، تدهور جو العمل، ضعف التنسيق ⇒ فشل محتمل.  
+   - حل: حوار مستمر وبنّاء (اجتماعات متابعة، أدوات تعاون)، تشجيع تبادل المعلومات، بناء ثقة عبر الإصغاء.
 
 ### <span style="color: rgb(50 200 50)">Préparer le projet</span>:
 
@@ -169,5 +240,3 @@
 ## <span style="color: rgb(255 100 100)">5. Mettre en œuvre l es outils de la chaîne du DevOps</span>:
 ### <span style="color: rgb(50 200 50)">Introduire la chaîne DevOps</span>:
 ### <span style="color: rgb(50 200 50)">Mettre en place la CI/CD avec Gitlab</span>:
-
-[^1]: test
