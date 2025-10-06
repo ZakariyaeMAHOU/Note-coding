@@ -230,35 +230,65 @@ Périmètre = liste précise de ce qui est inclus (IN) et exclu (OUT) dans le pr
 ### <span style="color: rgb(50 200 50)">Préparer le projet</span>:
 #### <span style="color: rgb(10 150 255)">1. Répartition de l’ensemble des fonctionnalités en tâches</span>:توزيع جميع الوظائف إلى مهام
 
-| FR                                                                                                                           | AR                                                                                         |
-| ---------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
-| But: découper le projet en WBS claire pour planifier, estimer, affecter, gérer risques.                                      | الهدف: تفكيك المشروع إلى هيكل مهام واضح للتخطيط والتقدير وتوزيع المسؤوليات وإدارة المخاطر. |
-| Approches: 1) Descendante (du global au détail) 2) Ascendante (lister puis regrouper) 3) Combinée (sécurise l’exhaustivité). | الطرق: 1) من أعلى لأسفل 2) من أسفل لأعلى 3) مزيج (لتفادي السهو).                           |
-| Caract. intrinsèques (tâche): Libellé, Entrées, Sorties, Compétences, Charge, Contraintes.                                   | خصائص داخلية: اسم، مدخلات، مخرجات، مهارات، جهد، قيود.                                      |
-| Caract. extrinsèques: Responsable, Ressources (humaines/matérielles), Dépendances (prédécesseur/suivant), Dates début/fin.   | خصائص خارجية: مسؤول، موارد بشرية/مادية، تبعيات (قبل/بعد)، تواريخ بداية/نهاية.              |
-| Exemple: Projet “Nouveau site” → Phases (Conception / Implémentation / Marketing) → Paquets → Tâches.                        | مثال: “موقع جديد” → مراحل (تصميم، تنفيذ، تسويق) → حزم → مهام.                              |
-| Résultat: base commune pour ordonnancement, chemin critique, coûts.                                                          | النتيجة: أساس للجدولة، المسار الحرج، التكلفة.                                              |
-| Mémo: WBS = (Approche) + (Intrinsèques) + (Extrinsèques) ⇒ Maîtrise.                                                         | تذكّر: WBS = (طريقة التفكيك) + (داخلية) + (خارجية) ⇒ تحكّم.                                |
+| FR                                                                                                                                           | AR                                                                                                |
+| -------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
+| ==But:==<br>découper le projet en WBS claire pour planifier, estimer, affecter, gérer risques.                                               | ==الهدف:==<br>تفكيك المشروع إلى هيكل مهام واضح للتخطيط والتقدير وتوزيع المسؤوليات وإدارة المخاطر. |
+| ==Approches:== <br>1) Descendante (du global au détail) <br>2) Ascendante (lister puis regrouper) <br>3) Combinée (sécurise l’exhaustivité). | ==الطرق:== <br>1) من أعلى لأسفل <br>2) من أسفل لأعلى <br>3) مزيج (لتفادي السهو).                  |
+###### Exemple
+![[m202-descendante-ascendante.png]]
+
+| FR                                                                                                                                | AR                                                                                   |
+| --------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
+| ==Caract. intrinsèques (tâche):==<br>Libellé, Entrées, Sorties, Compétences, Charge, Contraintes.                                 | ==خصائص داخلية:==<br>اسم، مدخلات، مخرجات، مهارات، جهد، قيود.                         |
+| ==Caract. extrinsèques:==<br>Responsable, Ressources (humaines/matérielles), Dépendances (prédécesseur/suivant), Dates début/fin. | ==خصائص خارجية:==<br>مسؤول، موارد بشرية/مادية، تبعيات (قبل/بعد)، تواريخ بداية/نهاية. |
+
 
 
 #### <span style="color: rgb(10 150 255)">2. Estimation de la durée de réalisation de chaque tâche</span>:قم بتقدير مدة كل مهمة
-
-- Méthodes:  
-  - Analogique = historique (rapide, moins précis).  
-  - Paramétrique = ratios (productivité mesurable, tâches répétitives).  
-  - PERT 3 points: Do (optimiste), Dc (probable), Dp (pessimiste) → DM = (Do + 4Dc + Dp) / 6.  
-- Distinction: Charge (effort en jours‑homme) ≠ Durée (temps calendaire).  
-- Durée dépend: nombre de personnes, compétence, % disponibilité, ressources matérielles.  
-- 10 j‑h = 10 j (1 pers 100%) = 5 j (2 pers 100%) = 20 j (1 pers 50%).  
-- Piège: doubler ressources ≠ moitié du temps (coordination, ramp‑up).
-
-- الطرق: تشبيهي (سريع أقل دقة)، معلمي (نِسَب إنتاجية)، PERT ثلاثي (متفائل، مرجّح، متشائم) والمتوسط = (Do + 4Dc + Dp) / 6.  
-- فرّق: الجهد (أيام‑شخص) ≠ المدة (زمن تقويمي).  
-- المدة تتأثر بعدد الأفراد، مهاراتهم، نسبة التفرغ، توفر المعدات.  
-- مثال: 10 أيام‑شخص قد تساوي 10 أيام أو 5 أو 20 حسب التوزيع.  
-- تنبيه: زيادة الأفراد لا تقسم الزمن دائماً بسبب التنسيق والانطلاق.
+##### Méthodes:
+###### Méthode 1: 
+Pour chaque tache, prenez les trois durées suivantes:
+- optimiste (Do)
+- pessimiste (Dp)
+- la plus probable (Dc)
+> ==**DM = (Do+Dp+4Dc)/6**==
+- DM: Durée moyenne
+###### Méthode 2:
+==**Durée = (Travail / Capacité) + temps non trvaillé**==
+- **La durée:** est le temps écoulé (en jours, heures...) entre le début de tache et la fin de la tache.
+- **Le travail:** représente la charge (en heures, en jours...) de travail nécessaire à la réalisation de la tâche par une seule personne occupée à 100% de son temps de travail sur la tâche.
+- **La capacité:** correspond au nombre de personnes affectées à la tache.
+- **Le temps non travaillé:** est composé des temps de pause, des jours fermés.
 #### <span style="color: rgb(10 150 255)">3. Ordonnancement des tâches</span>:جدولة المهام
+ ##### **Les 3 méthodes d'ordonnancement:**
+ - Le diagramme de Gantt
+ - La méthode MPM (Méthode des Potentiels Métra)
+ - Le PERT
+ ##### ==**La méthode MPM:**==
+- principe: تخطيط مدة المشروع بهدف تقليصها، بدراسة الآجال دون اعتبار الموارد/الأعباء.
+ - méthodologie (خطوات أساسية):
+  1. Établir la liste des tâches (تفكيك العمل).
+  2. Déterminer les antériorités (تحديد المهام السابقة مباشرةً والسابقة عموماً).
+  3. Déterminer les niveaux/rangs d’exécution للمهام.
+  4. Construire le réseau MPM.
+  5. Calculer: durée du projet + dates début/fin des tâches + déterminer le chemin critique.
+###### Exemple
+![[m202-MPM.png]]
 
+
+
+
+
+
+7) Diagramme de GANTT
+- تعريف: Chronogramme يضع المهام زمنياً حسب قيود التتابع.
+- المحاور: أفقي = temps، عمودي = لائحة المهام (ordonnées).
+- التمثيل: كل tâche = segment بطول يتناسب مع مدّتها؛ بداية القطعة على تاريخ “au plus tôt” (jalonnement au plus tôt)، ويمكن أيضاً “au plus tard”.
+- الاستخدام: سهل القراءة لكنه لا يُظهر بوضوح تشابك/تعاقب المهام؛ يُستعمل عادةً مكمّلاً لشبكة MPM.
+
+مختصر الحفظ:
+MPM = réseau, antériorités, rangs, durée projet, dates, chemin critique.  
+GANTT = chronogramme (temps × tâches), segments حسب المدة، غالباً au plus tôt، مكمل لـ MPM.
 #### <span style="color: rgb(10 150 255)">4. Chemin critique</span>:المسار الحرج
 
 #### <span style="color: rgb(10 150 255)">5. Echéancier et la chronologie des tâches</span>:
