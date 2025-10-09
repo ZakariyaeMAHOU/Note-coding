@@ -274,21 +274,22 @@ Pour chaque tache, prenez les trois durées suivantes:
   5. Calculer: durée du projet + dates début/fin des tâches + déterminer le chemin critique.
 ###### Exemple
 ![[m202-MPM.png]]
-
-
-
-
-
-
-7) Diagramme de GANTT
+![[m202-mpm-exp.png]]
+ ##### ==**Diagramme de GANTT:**==
 - تعريف: Chronogramme يضع المهام زمنياً حسب قيود التتابع.
 - المحاور: أفقي = temps، عمودي = لائحة المهام (ordonnées).
 - التمثيل: كل tâche = segment بطول يتناسب مع مدّتها؛ بداية القطعة على تاريخ “au plus tôt” (jalonnement au plus tôt)، ويمكن أيضاً “au plus tard”.
 - الاستخدام: سهل القراءة لكنه لا يُظهر بوضوح تشابك/تعاقب المهام؛ يُستعمل عادةً مكمّلاً لشبكة MPM.
+###### Exemple
+![[m202-gantt.png]]
+ ##### ==**Diagramme de PERT:**==
+ ![[m202-noeud.png]]![[m202-pert-tache.png]]
+![[m202-noeud-tache-fectif.png]]
+![[m202-noeud-ptpt.png]]
+![[m202-noeud-ti-ti.png]]
+![[m202-noeud-Ti.png]]
 
-مختصر الحفظ:
-MPM = réseau, antériorités, rangs, durée projet, dates, chemin critique.  
-GANTT = chronogramme (temps × tâches), segments حسب المدة، غالباً au plus tôt، مكمل لـ MPM.
+
 #### <span style="color: rgb(10 150 255)">4. Chemin critique</span>:المسار الحرج
 
 #### <span style="color: rgb(10 150 255)">5. Echéancier et la chronologie des tâches</span>:
