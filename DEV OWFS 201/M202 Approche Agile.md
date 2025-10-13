@@ -288,7 +288,8 @@ Pour chaque tache, prenez les trois durées suivantes:
 ![[m202-noeud-ptpt.png]]
 ![[m202-noeud-ti-ti.png]]
 ![[m202-noeud-Ti.png]]
-
+![[m202-marge-libre-1.png]]
+![[m202-marge-total-1.png]]
 
 #### <span style="color: rgb(10 150 255)">4. Chemin critique</span>:المسار الحرج
 
