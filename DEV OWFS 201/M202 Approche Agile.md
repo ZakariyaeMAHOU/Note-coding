@@ -292,11 +292,11 @@ Pour chaque tache, prenez les trois durées suivantes:
 ![[m202-marge-total-1.png]]
 
 #### <span style="color: rgb(10 150 255)">4. Chemin critique</span>:المسار الحرج
-
-#### <span style="color: rgb(10 150 255)">5. Echéancier et la chronologie des tâches</span>:
-#### <span style="color: rgb(10 150 255)">6. Affectation des ressources aux tâches</span>:
-#### <span style="color: rgb(10 150 255)">7. Maîtrise des coûts</span>:
-#### <span style="color: rgb(10 150 255)">8. Détermination des points de validation</span>:
+##### Marge Totale (MT) = 0 => Tache critique
+exp : B-D-F-G
+##### Tout Les tache critique => Chemin critique
+(ti=Ti) => chemin critique
+exp : (B D F G)
 
 ## <span style="color: rgb(255 100 100)">3. Adopter l ’approche Agile dans gestion de projet</span>:
 ### <span style="color: rgb(50 200 50)">Appréhender la méthodologie Agile Scrum</span>:
