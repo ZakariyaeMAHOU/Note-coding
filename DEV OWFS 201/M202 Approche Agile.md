@@ -300,6 +300,49 @@ exp : (B D F G)
 
 ## <span style="color: rgb(255 100 100)">3. Adopter l ’approche Agile dans gestion de projet</span>:
 ### <span style="color: rgb(50 200 50)">Appréhender la méthodologie Agile Scrum</span>:
+#### <span style="color: rgb(10 150 255)">1. Définition de la méthode Agile Scrum</span>:
+- est une méthode agile consacrée à la gestion de projet.
+- هو واحد المنهجية agile باش تْسير المشروع بشكل تكراري وقريب من الزبون. الخدمة تتقسم لـ«sprints» صغار (مثلاً سيمانة ولا جوج أسابيع) وكنخْرجو كل مرة شّي Increment خَدّامة.
+![[Scrum.png]]
+- <span style="color: rgb(200 100 50)">Product Owner</span>:
+- هو اللي كيعرف شنو الحاجة اللي خاصها تْتصاوب، كيرتّب الأولويات
+- <span style="color: rgb(200 100 50)">Scrum Master</span>:
+- هو اللي كيسهّل، كيحيد العوائق على الفريق، ومكلف بالمشي بالإطار ديال Scrum.
+- <span style="color: rgb(200 100 50)">Scrum Team</span>:
+- الفريق اللي كيصوب الخدمة (مطورين، مصممين، مختبرين ...) — فريق متعدد المهارات.
+- <span style="color: rgb(200 50 200)">Sprint Backlog</span>:
+- - شنو غادي يخدم الفريق فهاد sprint بالضبط.
+- <span style="color: rgb(200 50 200)">Definition of Done</span>:
+- النتيجة اللي خْرَجَات صالحة للاستعمال؛ خاصها تجي مع تعريف واضح شنو يعني "مكمّل".
+- <span style="color: rgb(0 200 255)">Sprint</span>:
+- كنحددو شنو غادي نديرو فالسبرينت.
+- <span style="color: rgb(0 200 255)">Daily Scrum</span>:
+- 15 دقيقة كل نهار، كل واحد يقول شنو دار، شنو غادي يدير، شنو العائق.
+#### <span style="color: rgb(10 150 255)">2. Manifest Agile (4 valeurs et 12 principes)</span>:
+##### Les 4 valeurs:
+- 1) Les individus et les interactions plus que les processus et les outils
+- الفريق و كيفاش كيهضرو مع بعضهم أهم من وثيقة ولا تول كيستعملو.
+- 2) Des logiciels opérationnels plus qu’une documentation exhaustive
+- المهم تسلّم حاجة تخدم للزبون، ماشي تضيّع الوقت فـ documentation بلا فايدة.
+- 3) La collaboration avec les clients plus que la négociation contractuelle
+- خدم مع الزبون خطوة بخطوة وخليه يعطي feedback، ماشي تبقى متمسك بعقد وخلاص.
+- 4) L’adaptation au changement plus que le suivi d’un plan
+- التغيير طبيعي وخصنا نكونو مرنين. الخطة مهمة ولكن ماشي مقدسة.
+##### Les 12 principes:
+1. الهدف هو رضا الزبون عبر تسليم قيمة بسرعة وباستمرار.
+2. التغييرات مرحب بها، حتى فـ آخر المشروع، لأنها كتزيد قيمة.
+3. نسلمو نسخة خدامة بززاف وبوقت قصير (دوريًا).
+4. الخدمة بين الفريق والزبون خاصها تكون يومية ومباشرة.
+5. البنادم المزيان والمواتيفي هو اللي كيخلي المشروع ينجح؛ عطّيه الثقة والوسائل.
+6. السول أو الكلام وجهاً لوجه هو أسرع وأنجع طريقة للتفاهم.
+7. مقياس التقدّم هو المنتج لي خدام، ماشي التقارير.
+8. خص الخدمة تكون مستدامة (الوتيرة معقولة وماش تكون حرق ديال الناس).
+9. العناية بالجودة والتقنية كل نهار باش ما يبقى تكديس ديال المشاكل.
+10. البساطة مهمة: نقص كل ما يقدر يتزاد.
+11. الفرق اللي كتقرر بوحدها (self‑organizing) كتلقى أفضل الحلول.
+12. من بعد كل sprint، الفريق كيوقف يشوف شنو يصلح، ويحسن الخدمة ديالو (retrospective).
+
+#### <span style="color: rgb(10 150 255)">3. Processus de la méthode Scrum : pre-game, game, postgame</span>:
 ### <span style="color: rgb(50 200 50)">Manipuler l ’outil de gestion de projet Agile (Scrum /Jira )</span>:
 
 ## <span style="color: rgb(255 100 100)">4. Mettre en œuvre des outils de gestion de versions et de mesure de la qualité du code</span>:
