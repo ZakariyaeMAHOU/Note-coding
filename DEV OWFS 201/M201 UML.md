@@ -28,7 +28,7 @@
 
 > [!NOTE] Pour modéliser les besoins client
 > 
-
+![[diagram-de-cas-dutilisation.png]]
 
 ### <span style="color: rgb(50 200 50)">Diagramme de classes</span>:
 > [!NOTE] Pour modéliser les données du projet
