@@ -32,7 +32,28 @@
 
 ### <span style="color: rgb(50 200 50)">Diagramme de classes</span>:
 > [!NOTE] Pour modéliser les données du projet
-> 
+#### 1. Définition du diagramme de classes:
+![[StructurationOO.png]]
+![[representationGrphUML.png]]
+
+#### 2. Visibilité, encapsulation des méthodes et attributs
+![[DémonstrationVisibilité.png]]
+#### 3. Attributs et Méthodes d’instance
+![[expClass.png]]
+#### 7. Multiplicité (cardinalité)
+![[Cardinalité.png]]
+#### 10. Relations entre classes
+![[Relation de dépendance.png]]
+![[Relation de dépendance - Exemple.png]]
+![[Associations entre classes.png]]
+![[Associations binaire - Implémentation.png]]
+![[Associations entre classes – Multiplicité de l’association.png]]
+![[Associations entre classes - Association réflexive.png]]
+![[Associations reliant plusieurs classes - Association n-aire.png]]
+#### Exercice:
+![[exercice-diagram-de -class.png]]
+![[solution-dc.png]]
+
 ### <span style="color: rgb(50 200 50)">Diagramme de séquence</span>:
 > [!NOTE] Pour modéliser les interactions d’objets d’un système
 > 
