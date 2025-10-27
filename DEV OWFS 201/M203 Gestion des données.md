@@ -40,7 +40,7 @@
 			DROP FUNCTION IF EXISTS nom_fonction;
 			CREATE FUNCTION nom_fonction ([parameter(s)])
 				RETURNS type_retour
-				déclaration informative 
+				déclaration informative(DETERMINISTIC || READS SQL DATA || MODIFIES SQL DATA || CONTAINS SQL) 
 				Instructions
 			```
 ### <span style="color: rgb(50 200 50)">Optimiser une base de données MySQL</span>:
