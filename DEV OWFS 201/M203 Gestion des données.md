@@ -38,10 +38,32 @@
 ```MySQL
 			USE nom_bd;
 			DROP FUNCTION IF EXISTS nom_fonction;
+			delimiter $$
 			CREATE FUNCTION nom_fonction ([parameter(s)])
 				RETURNS type_retour
-				déclaration informative(DETERMINISTIC || READS SQL DATA || MODIFIES SQL DATA || CONTAINS SQL) 
-				Instructions
+				déclaration informative(
+					DETERMINISTIC ||
+					READS SQL DATA ||
+					MODIFIES SQL DATA ||
+					CONTAINS SQL
+				) 
+				begin
+					declare var type;
+					set var = (select ..... from ...... where ....... );
+					return var;
+				end $$;
+			delimiter ;
 			```
+=>الدوال كاترجع أنواع بسيطة (int - float - varchar) ماتقدرش ترجع (table)
+- **Procédure stockée:** 
+```mysql
+	delimiter $$ 
+	create procedure nom_procedure([parametres])
+		begin
+			le code sql
+		end $$
+		syntax pour exécuter une procédures stockée
+	call nom_procedure([parametres]);
+```
 ### <span style="color: rgb(50 200 50)">Optimiser une base de données MySQL</span>:
 ### <span style="color: rgb(50 200 50)">Protéger la base de données MySQL</span>:
