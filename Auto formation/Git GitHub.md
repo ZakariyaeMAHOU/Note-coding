@@ -5,6 +5,7 @@
 | Week 1 | [Intro](https://youtu.be/fDkR0TDR9dI?si=lupodxdOJjKqVH5z)         | 1(1H)     | ✅       |
 |        | [Git Github](https://elzero.org/category/courses/git-and-github/) | 21(2:30H) | ✅       |
 ## [Git GitHub](https://youtube.com/playlist?list=PLZNz7wrFA85CLedlAAcVbl7b3pfE-zIsI&si=z60WnPQJue8lz6fx):
+Répertoire de travail => Zone de transit => Dépôt
 ![map](git&github-map.png)
 
 ## old
@@ -63,13 +64,25 @@ git stash clear => delete all stashes
 ![git-log](git-log.png)
 q
 ![git-reset--hard](git-reset--hard.png)
+
+## 🔄 أوامر التراجع في Git:
+git restore | staging area => working directory   
+☣يُعيد الملف إلى آخر نسخة محفوظة في المستودع (آخر commit).
+git restore --staged === git reset  | staging area => working directory 
+إزالة ملف من _staging area_ دون حذف التعديلات.
+
+git switch nom-du-branche (switch between branches)
+git switch -c nouveau-branche  (create a new branche and switch to it)
+
+
 ## Some Commands
 ```
 cd /                           =>      C:\
 mkdir myproject      =>       myproject ينشئ مجلد اسمه
 -m                            =>      git branch -m master main =>   غير موجود main فقط إذا main إلى master  يغيّر الفرع من
 -M                            =>      git branch -M master main => main من قبل، رح يغيّر الفرع الحالي إلى mainحتى لو عندك فرع اسمه 
-
+git diff                      => to see changes
+git commit -a -m "test" => commit only modified files
 ```
 
 ## Get the Project
