@@ -1,4 +1,4 @@
-# [Playlist](https://youtube.com/playlist?list=PLKV6WevXj-lV2tqD_3ljxspt4qAFGK-M1&si=AkzSh7I-tVFpf8jk):
+## [Playlist](https://youtube.com/playlist?list=PLKV6WevXj-lV2tqD_3ljxspt4qAFGK-M1&si=AkzSh7I-tVFpf8jk):
 > [!NOTE] Resume
 > ### 1. Exploiter les fonctionnalités avancées d’un SGBD relationnel 
 > ### استغلال الميزات المتقدمة لنظام إدارة قواعد البيانات العلائقية
@@ -65,5 +65,22 @@
 		syntax pour exécuter une procédures stockée
 	call nom_procedure([parametres]);
 ```
+
+##### Les variables:
+- **Déclaration des variables scalaires:**
+![[m203-sou-programme-les-variables.png]]
+- **Déclaration des variables de session (externes):**
+![[m203-sou-programme-les-variables-extern.png]]
+- **Portée des objets:**
+		- La portée d’un objet (variable, curseur ou exception) est limitée au bloc dans lequel il est déclaré. Un objet déclaré dans un bloc est accessible dans les sous-blocs.
+		- En revanche, un objet déclaré dans un sous-bloc n’est pas visible du bloc conteur.
+##### Verrouillage des tables :
+![[m203-sou-programme-verrouillage.png]]
+![[m203-sou-programme-verrouillage-synthax.png]]
+![[m203-sou-programme-verrouillage-typespng.png]]
+
+##### Conditions:
+![[m203-sou-programme-condition-synthax.png]]
+
 ### <span style="color: rgb(50 200 50)">Optimiser une base de données MySQL</span>:
 ### <span style="color: rgb(50 200 50)">Protéger la base de données MySQL</span>:
