@@ -25,8 +25,7 @@
 
 ## 1. <span style="color: rgb(255 100 100)">Exploiter les fonctionnalités avancées d’un SGBD relationnel </span>:
 ### <span style="color: rgb(50 200 50)">Maitriser le langage de programmation procédurale sous MySQL</span>:
-#### <span style="color: rgb(10 150 255)">les différents types des programmes MySQL</span>:
-##### Les sous-programmes:
+#### <span style="color: rgb(10 150 255)">Les sous-programmes</span>:
 - **Un sous proramme** est un bloc d’instructions est composé de :
 	- **BIGIN** : debut du bloc
 	- **DECLARE**(directive optionnelle):déclare une variable, un curseur, une exception, etc. ; 
@@ -65,8 +64,7 @@
 		syntax pour exécuter une procédures stockée
 	call nom_procedure([parametres]);
 ```
-
-##### Les variables:
+#### <span style="color: rgb(10 150 255)">Les variables</span>:
 - **Déclaration des variables scalaires:**
 ![[m203-sou-programme-les-variables.png]]
 - **Déclaration des variables de session (externes):**
@@ -74,13 +72,22 @@
 - **Portée des objets:**
 		- La portée d’un objet (variable, curseur ou exception) est limitée au bloc dans lequel il est déclaré. Un objet déclaré dans un bloc est accessible dans les sous-blocs.
 		- En revanche, un objet déclaré dans un sous-bloc n’est pas visible du bloc conteur.
-##### Verrouillage des tables :
+#### <span style="color: rgb(10 150 255)">Verrouillage des tables </span>:
 ![[m203-sou-programme-verrouillage.png]]
 ![[m203-sou-programme-verrouillage-synthax.png]]
 ![[m203-sou-programme-verrouillage-typespng.png]]
 
-##### Conditions:
-![[m203-sou-programme-condition-synthax.png]]
+
+#### <span style="color: rgb(10 150 255)">Conditions</span>:
+##### if:
+![[m203-condition-if.png]]
+##### case:
+![[m203-condition-case.png]]
+
+
+#### <span style="color: rgb(10 150 255)">Les boucles</span>:
+##### *Loop:*
+![[m203-boucles-loop.png]]
 
 ### <span style="color: rgb(50 200 50)">Optimiser une base de données MySQL</span>:
 ### <span style="color: rgb(50 200 50)">Protéger la base de données MySQL</span>:
