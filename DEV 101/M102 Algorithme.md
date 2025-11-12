@@ -1,5 +1,5 @@
-### <h2 style="color: rgb(0, 115, 255);"> Instruction de base : </h2>
-####       <h3 style="color: rgb(255, 20, 20);">Déclaration des variables:</h3>
+### <span style="color: rgb(255, 20, 20);"> Instruction de base</span>:
+#### <span style="color: green;">Déclaration des variables</span>:
 
 Algorithme : Déclaration des variables
 	variable nomv : type
@@ -8,20 +8,21 @@ Algorithme : Déclaration des variables
 		          nomv3 : type
 
 
-####       <h3 style="color: rgb(255, 20, 20);">Types des Variables:</h3>
-|Types|exp|
-|---|---|
-|Entier|93|
-|Réel|9.4|
-|caractere|“H”|
-|Chaine de caractere|“Bonjour”|
-|Booléén|true/false|
+#### <span style="color: green;">Types des Variables</span>:
 
-####       <h3 style="color: rgb(255, 20, 20);">Instructoin de base:</h3>
-#####                 <h4 style="color: green;">Instruction d’entrée/sortie:</h4>
+| Types               | exp        |
+| ------------------- | ---------- |
+| Entier              | 93         |
+| Réel                | 9.4        |
+| caractere           | “H”        |
+| Chaine de caractere | “Bonjour”  |
+| Booléén             | true/false |
+
+#### <span style="color: green;">Instructoin de base</span>:
+##### <span style="color: rgb(0, 115, 255);">Instruction d’entrée/sortie</span>:
 Ecrire (”Entrez l’age:”)
 Lire (n)
-#####                 <h4 style="color: green;">Opération</h4>
+##### <span style="color: rgb(0, 115, 255);">Opération</span>:
 Opération arithmétique (Nombres):
 
 |+|2+5=7|
@@ -34,16 +35,16 @@ Opération arithmétique (Nombres):
 Opération cocaténation (chaine):
 
 Ecrire(”3”+”7”) ⇒ 37
-#####                 <h4 style="color: green;">Affectation: </h4>
+##### <span style="color: rgb(0, 115, 255);">Affectation</span>:
 exemple:
 x ← 10
 x ← x*2
 x ← x-2
 Ecrire (x) ⇒ 18
 
-### <h2 style="color: rgb(0, 115, 255);">Les strectures : </h2>
-####       <h3 style="color: rgb(255, 20, 20);">Strectures alternatves :</h3>
-#####                 <h4 style="color: green;">Si & Sinon & Fin Si ( if & elif & else )</h4>
+### <span style="color: rgb(255, 20, 20);">Les strectures</span>:
+#### <span style="color: green;">Strectures alternatves(les conditions)</span>:
+##### <span style="color: rgb(0, 115, 255);">Si & Sinon & Fin Si ( if & elif & else )</span>:
 ```abap
 algoritme: exemple
 	variable note:réel
@@ -78,7 +79,7 @@ if 0<note<20 :
 else:
     print("ERROR")
 ```
-#####                 <h4 style="color: green;">(Imbriquées)</h4>
+##### <span style="color: rgb(0, 115, 255);">(Imbriquées)</span>:
 ```abap
 Algorithme: pos/neg
 	variable n:entier
@@ -142,8 +143,8 @@ else :
 	else:
 		print("Nous ne proposons pas ce langage")
 ```
-####       <h3 style="color: rgb(255, 20, 20);">Strectures répétitives :</h3>
-#####                <h4 style="color: green;">1. La boucle pour (for) :</h4>
+#### <span style="color: green;">Strectures répétitives(les boucles)</span>:
+##### <span style="color: rgb(0, 115, 255);">1. La boucle pour (for)</span>:
 ```abap
 Algorithme: 10 nombres
 	Variables  i , n , min :Entière
@@ -174,7 +175,7 @@ for i in range(2,10):
 		min=n
 print(min)
 ```
-#####                <h4 style="color: green;">2. La boucle tant que (while) :</h4>
+##### <span style="color: rgb(0, 115, 255);">2. La boucle tant que (while)</span>:
 ```abap
 Algorithme 
 	Variables n :Entière
@@ -297,7 +298,7 @@ while n!=1 :
 	n=n-1
 print( "Factoriel=" , f )
 ```
-#####                <h4 style="color: green;">3. La boucle répéter….jusqu’à (while …. if … : break ) :</h4>
+##### <span style="color: rgb(0, 115, 255);">3. La boucle répéter….jusqu’à (while …. if … : break )</span>:
 ```abap
 Algorithme
 	Variables n :Entiers
@@ -344,11 +345,11 @@ while n!=0 :
 	if n==1: break
 print( "Factoriel=" , f )
 ```
-### <h2 style="color: rgb(0, 115, 255);">Tableaux</h2>
-####       <h3 style="color: rgb(255, 20, 20);">Une demontion</h3>
-#####                <h4 style="color: green;">Déclaration d’un tableau:</h4>
+### <span style="color: rgb(255, 20, 20);">Tableaux</span>:
+#### <span style="color: green;">Une demontion</span>:
+##### <span style="color: rgb(0, 115, 255);">Déclaration d’un tableau</span>:
 ![image](Declaration-d'un_tableau.png)
-#####                <h4 style="color: green;">Exemples</h4>
+##### <span style="color: rgb(0, 115, 255);">Exemples</span>:
 ```abap
 Algorithme
 	Tableau T(20) :Entière
@@ -374,9 +375,9 @@ for i in range(0, 20):
     s += T[i]
 print("La somme:", s)
 ```
-####       <h3 style="color: rgb(255, 20, 20);">Les opération de base sur un tableau</h3>
-#####                <h4 style="color: green;">Insertion</h4>
-######                          1- Insertion au début d’un tableau:
+#### <span style="color: green;">Les opération de base sur un tableau</span>:
+##### <span style="color: rgb(0, 115, 255);">Insertion</span>:
+###### 1- Insertion au début d’un tableau:
 ![l'exercice](Insertion.png)
 ```abap
 Algo_Insertion_Debut
@@ -399,7 +400,7 @@ Début
 		fin pour
 Fin
 ```
-######                          2- Insertion au milieu d’un tableau:
+###### 2- Insertion au milieu d’un tableau:
 ![l'exercice](insertion-milieu.png)
 ```abap
 Algo_Insertion_Milieu
@@ -421,7 +422,7 @@ Début
 		fin pour
 Fin
 ```
-######                          3- Insertion à la fin d’un tableau:
+###### 3- Insertion à la fin d’un tableau:
 ![l'exercice](Insertion-fin.png)
 ```abap
 Algo_Insertion_Fin
@@ -442,7 +443,7 @@ Début
 Fin
 ```
 
-#####                <h4 style="color: green;">Modification</h4>
+##### <span style="color: rgb(0, 115, 255);">Modification</span>:
 ![exercice 1](EX1.png)
 ```abap
 Algo_Ex1_Modification
@@ -506,8 +507,8 @@ Début
 		Fin Pour
 Fin 
 ```
-#####                <h4 style="color: green;">Suppression</h4>
-######                          1- Opération de suppression: par position
+##### <span style="color: rgb(0, 115, 255);">Suppression</span>:
+###### 1- Opération de suppression: par position
 ![exercice](image.png)
 ```abap
 Algoriyhme	
@@ -528,7 +529,7 @@ Début
 	finpour
 fin
 ```
-######                          2- Opération de suppression de valeur: (existe une seule fois)
+###### 2- Opération de suppression de valeur: (existe une seule fois)
 ![exercice](image2.png)
 ```abap
 Algo_Suppression_valeur
@@ -551,7 +552,7 @@ debut
 	fin pour
 fin
 ```
-######                          3- La suppression d’une valeur (existe plusieurs fois)
+###### 3- La suppression d’une valeur (existe plusieurs fois)
 ![exercice](image3.png)
 ```abap
 ALGO Supprition:
@@ -586,8 +587,8 @@ fin pour
 fin
 
 ```
-#####                <h4 style="color: green;">Recherche</h4>
-######                          1- Opération de recherche : recherche séquentielle
+##### <span style="color: rgb(0, 115, 255);">Recherche</span>:
+###### 1- Opération de recherche : recherche séquentielle
 ![exercice](image8.png)
 ```abap
 Solution Algo_Ex01:
@@ -610,7 +611,7 @@ debut
 		fin si
 Fin
 ```
-######                          2- Opération de recherche : recherche dichotomique
+###### 2- Opération de recherche : recherche dichotomique
 ![exercice](image4.png)
 ![exercice](image5.png)
 ```abap
@@ -643,7 +644,7 @@ DEBUT
 				Ecrire "existe "
 FIN
 ```
-######                          3-Recherche séquentielle dans un tableau ordonné (ordre croissant)
+###### 3-Recherche séquentielle dans un tableau ordonné (ordre croissant)
 ![exercice](image6.png)
 ```abap
 Solution : Algo_Ex
@@ -669,8 +670,9 @@ debut
 		fin si
 Fin
 ```
-####      <h3 style="color: rgb(255, 20, 20);"> Les algorithmes de Tri d’un tableau: </h3>
-#####               <h4 style="color: green;"> Algorithme de tri : Tri par sélection</h4>
+#### <span style="color: green;"> Les algorithmes de Tri d’un tableau</span>:
+##### <span style="color: rgb(0, 115, 255);"> Algorithme de tri : Tri par sélection</span>:
 ![exercice](image10.png)
 ![exercice](image11.png)
 ![exercice](image12.png)
+

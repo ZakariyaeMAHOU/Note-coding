@@ -1,4 +1,4 @@
-## [Playlist](https://youtube.com/playlist?list=PLKV6WevXj-lV2tqD_3ljxspt4qAFGK-M1&si=AkzSh7I-tVFpf8jk):
+## [Playlist](https://youtube.com/playlist?list=PLKV6WevXj-lV2tqD_3ljxspt4qAFGK-M1&si=AkzSh7I-tVFpf8jk): [Mongo DB](https://youtube.com/playlist?list=PLKV6WevXj-lXoIcHSYDa4m1Cjy2KGxV8k&si=m18swjl5_XAUGET_):
 > [!NOTE] Resume
 > ### 1. Exploiter les fonctionnalités avancées d’un SGBD relationnel 
 > ### استغلال الميزات المتقدمة لنظام إدارة قواعد البيانات العلائقية
@@ -86,8 +86,11 @@
 
 
 #### <span style="color: rgb(10 150 255)">Les boucles</span>:
-##### *Loop:*
+##### *Loop*:
 ![[m203-boucles-loop.png]]
+##### *While*:
+![[m203-boucles-while.png]]
+##### *Repeat*:
 
 ### <span style="color: rgb(50 200 50)">Optimiser une base de données MySQL</span>:
 ### <span style="color: rgb(50 200 50)">Protéger la base de données MySQL</span>:
