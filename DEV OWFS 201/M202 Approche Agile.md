@@ -88,7 +88,6 @@
     
 - <span style="color: cyan">**Contraintes de qualité**</span> : Normes légales, sécurité, santé publique, ou exigences commerciales/contractuelles.  
 ### <span style="color: rgb(50 200 50)">Chapitre 2: Découvrir les différentes méthodes de gestion de projet</span>:
-- الفرق الأساسي: التقليدية تركّز على **الخطة**، بينما Agile تركّز على **القيمة والمنتج النهائي**.
 #### <span style="color: rgb(10 150 255)">1. Méthodes prévisibles</span> (traditionnelles)
 - Organisation stricte, déroulement en étapes séquentielles, peu de retour en arrière.
     
