@@ -1,27 +1,4 @@
-## [Playlist](https://youtube.com/playlist?list=PLKV6WevXj-lV2tqD_3ljxspt4qAFGK-M1&si=AkzSh7I-tVFpf8jk): [Mongo DB](https://youtube.com/playlist?list=PLKV6WevXj-lXoIcHSYDa4m1Cjy2KGxV8k&si=m18swjl5_XAUGET_):
-> [!NOTE] Resume
-> ### 1. Exploiter les fonctionnalités avancées d’un SGBD relationnel 
-> ### استغلال الميزات المتقدمة لنظام إدارة قواعد البيانات العلائقية
-> - Maitriser le langage de programmation procédurale sous MySQL 
-> - إتقان برمجة المنطق داخل قاعدة البيانات
-> - Optimiser une base de données MySQL 
-> - تحسين أداء القاعدة وزمن الاستجابة مع الحفاظ على الدقة والاعتمادية
-> - Protéger la base de données MySQL 
-> - تأمين قاعدة MySQL ضدّ الاختراق والفقدان وسوء الاستخدام
-> ### 2. Exploiter les fonctionnalités des bases de données NoSQL MongoDB 
-> ### استغلال ميزات قواعد بيانات MongoDB NoSQL
-> - Découvrir les bases de données NoSQL 
-> - اكتشف قواعد بيانات NoSQL
-> - Mettre en place une base de données MongoDB 
-> - إعداد قاعدة بيانات MongoDB
-> - Modéliser les documents 
-> - وثائق نموذجية
-> - Manipuler les données avec mongoDB 
-> - معالجة البيانات باستخدام MongoDB
-> - Effectuer des requêtes depuis des programmes Python 
-> - تنفيذ الاستعلامات من برامج بايثون
-> - Sécuriser une base de données MongoDB
-> - تأمين قاعدة بيانات MongoDB
+## [Playlist](https://youtube.com/playlist?list=PLKV6WevXj-lV2tqD_3ljxspt4qAFGK-M1&si=AkzSh7I-tVFpf8jk): [Mongo DB](https://youtube.com/playlist?list=PLKV6WevXj-lXoIcHSYDa4m1Cjy2KGxV8k&si=m18swjl5_XAUGET_):[Copilot](https://copilot.microsoft.com/shares/XsVLHwkBoRAuFYWCgTfNH):
 
 ## 1. <span style="color: rgb(255 100 100)">Exploiter les fonctionnalités avancées d’un SGBD relationnel </span>:
 ### <span style="color: rgb(50 200 50)">Maitriser le langage de programmation procédurale sous MySQL</span>:
@@ -94,3 +71,4 @@
 
 ### <span style="color: rgb(50 200 50)">Optimiser une base de données MySQL</span>:
 ### <span style="color: rgb(50 200 50)">Protéger la base de données MySQL</span>:
+## 2. <span style="color: rgb(255 100 100)">Exploiter les fonctionnalités des bases de données NoSQL MongoDB</span>:
